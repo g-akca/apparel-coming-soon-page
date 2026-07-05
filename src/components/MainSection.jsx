@@ -3,12 +3,12 @@ import arrowIcon from "/images/icon-arrow.svg";
 
 function MainSection() {
   return (
-    <main className="flex flex-col gap-16 pb-12">
+    <main className="flex flex-col gap-16 pb-14">
       <HeroImage />
 
       <div className="px-8 max-w-127.25 self-center flex flex-col gap-8">
         <div className="flex flex-col gap-4 text-center">
-          <h2 className="uppercase text-[40px] leading-[100%] tracking-[10px] font-light">We're <span className="font-semibold text-gray-900">Coming Soon</span></h2>
+          <h2 className="uppercase text-[40px] leading-[100%] tracking-[10px] font-light">We're <br/><span className="font-semibold text-gray-900">Coming <br/> Soon</span></h2>
 
           <p className="text-[14px] leading-[155%]">Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
         </div>
