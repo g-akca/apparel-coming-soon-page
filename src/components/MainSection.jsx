@@ -2,8 +2,13 @@ import arrowIcon from "/images/icon-arrow.svg";
 
 function MainSection() {
   return (
-    <div className="px-8 max-w-127.25 self-center flex flex-col gap-8">
-      <div className="flex flex-col gap-4 tablet:gap-8 text-center">
+    <div 
+      className="
+        px-8 max-w-127.25 self-center flex flex-col gap-8 desktop:px-0 
+        desktop:max-w-111.25 desktop:self-start desktop:grow desktop:justify-center
+      "
+    >
+      <div className="flex flex-col gap-4 tablet:gap-8 text-center desktop:text-start">
         <h2 className="uppercase text-[40px] tablet:text-[64px] leading-[100%] tablet:leading-[110%] tracking-[10px] tablet:tracking-[17.5px] font-light">We're <br/><span className="font-semibold text-gray-900">Coming <br/> Soon</span></h2>
 
         <p className="text-[14px] leading-[155%] tablet:text-base tablet:leading-base">Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
