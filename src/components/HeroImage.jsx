@@ -8,7 +8,7 @@ function HeroImage() {
       <img
         src={heroMobile}
         alt="Woman with brown hair and orange shirt"
-        className="max-h-75 w-full object-cover object-top tablet:max-h-100"
+        className="max-h-75 w-full object-cover object-top tablet:max-h-100 desktop:max-h-none desktop:h-full"
       />
     </picture>
   )
