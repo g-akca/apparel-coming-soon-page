@@ -39,8 +39,10 @@ function MainSection() {
 
       <div className="flex flex-col gap-2">
         <form className="relative" noValidate onSubmit={handleSubmit}>
+          <label htmlFor="email" className="sr-only">Email address</label>
           <input 
             type="email"
+            id="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             placeholder="Email Address"
