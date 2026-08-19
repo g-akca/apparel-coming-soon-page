@@ -4,6 +4,8 @@
   --color-gray-900: #423A3A;
   --color-red-400: #F96464;
   --color-pink-400: #CE9898;
+  --color-page-gradient-start: #FFF;
+  --color-page-gradient-end: #FFF4F4;
 
   --font-josefin: "Josefin Sans", sans-serif;
   --text-base: 16px;
@@ -11,6 +13,8 @@
 
   --breakpoint-tablet: 768px;
   --breakpoint-desktop: 1440px;
+
+  --background-image-page-gradient: linear-gradient(140deg, var(--color-page-gradient-start) 25%, var(--color-page-gradient-end) 80%);
 }
 
 :root {
