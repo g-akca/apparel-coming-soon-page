@@ -32,7 +32,7 @@ function MainSection() {
       "
     >
       <div className="flex flex-col gap-4 tablet:gap-8 text-center desktop:text-start">
-        <h2 className="uppercase text-[40px] tablet:text-[64px] leading-[100%] tablet:leading-[110%] tracking-[10px] tablet:tracking-[17.5px] font-light">We're <br/><span className="font-semibold text-gray-900">Coming <br/> Soon</span></h2>
+        <h1 className="uppercase text-[40px] tablet:text-[64px] leading-[100%] tablet:leading-[110%] tracking-[10px] tablet:tracking-[17.5px] font-light">We're <br/><span className="font-semibold text-gray-900">Coming <br/> Soon</span></h1>
 
         <p className="text-[14px] leading-[155%] tablet:text-base tablet:leading-base">Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
       </div>
@@ -54,7 +54,7 @@ function MainSection() {
           />
 
           <div className="absolute right-0 top-0 flex items-center gap-2 tablet:gap-4">
-            {error && <img src={errorIcon} className="w-6 aspect-square" />}
+            {error && <img src={errorIcon} alt="" className="w-6 aspect-square" />}
             
             <button 
               type="submit" 
