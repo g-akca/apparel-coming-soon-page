@@ -46,6 +46,8 @@ function MainSection() {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             placeholder="Email Address"
+            aria-invalid={error}
+            aria-describedby={message ? "email-message" : undefined}
             className={`
               w-full pl-6 tablet:pl-8 pr-30 tablet:pr-38 py-2 h-12 tablet:h-14 text-gray-900
               border border-pink-400 rounded-[28px] placeholder:text-pink-400/50
@@ -71,7 +73,11 @@ function MainSection() {
         </form>
 
         {message && (
-          <p className={`text-[13px] leading-base pl-6 tablet:pl-8 ${error ? "text-red-400" : "text-green-500"}`}>
+          <p
+            id="email-message"
+            aria-live="polite"
+            className={`text-[13px] leading-base pl-6 tablet:pl-8 ${error ? "text-red-400" : "text-green-500"}`}
+          >
             {message}
           </p>
         )}
