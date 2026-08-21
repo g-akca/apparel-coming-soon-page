@@ -10,6 +10,8 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [Challenges](#challenges)
+  - [Continued development](#continued-development)
 - [Author](#author)
 
 ## Overview
@@ -45,6 +47,16 @@ Users should be able to:
 - Responsive design
 - [Tailwind CSS](https://tailwindcss.com/) - CSS framework
 - [React](https://reactjs.org/) - JS library
+
+### Challenges
+
+- Matching the desktop illustration and content proportions while keeping the mobile image in the correct reading order required careful use of CSS Grid and responsive breakpoints.
+- The validation needed to distinguish between an empty field and an invalid email address while preserving clear visual and text feedback.
+
+### Continued development
+
+- Improve keyboard and screen-reader feedback for validation messages and focus states.
+- Test the layout and form behavior across more browsers and intermediate viewport widths.
 
 ## Author
 
