@@ -64,7 +64,7 @@ function MainSection() {
               className="
                 flex justify-center items-center w-16 tablet:w-25 h-12 tablet:h-14 
                 rounded-[28px] bg-linear-150 from-[#F8BFBF] from-15% to-[#EE8B8B] 
-                shadow-[0_15px_20px_rgba(198,110,110,0.25)] cursor-pointer focus:outline-pink-400
+                shadow-[0_15px_20px_rgba(198,110,110,0.25)] cursor-pointer hover:outline-pink-400
               "
             >
               <img src={arrowIcon} alt="" />
