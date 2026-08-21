@@ -52,7 +52,7 @@ function MainSection() {
               w-full pl-6 tablet:pl-8 pr-30 tablet:pr-38 py-2 h-12 tablet:h-14 text-gray-900
               border border-pink-400 rounded-[28px] placeholder:text-pink-400/50
               focus:outline-pink-400 focus-visible:outline-2 focus-visible:outline-pink-400 
-              ${error ? "border-red-400 border-2 focus:outline-none" : ""}
+              ${error ? "border-red-400 border-2" : ""}
             `}
           />
 
